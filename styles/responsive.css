@@ -1,0 +1,73 @@
+@media (max-width: 375px) {
+
+  /* == TYPOGRAPHY == */
+
+  .heading-xl {
+    font-size: 56px;
+  }
+
+  /* .heading-l {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: auto;
+    letter-spacing: 0px;
+  } */
+
+  .heading-m {
+    font-size: 18px;
+  }
+
+  .txt-body,
+  .txt-body-bold {
+    font-size: 16px;
+  }
+
+  .results-title {
+    margin-bottom: 24px;
+  }
+
+  /* == CARD == */
+
+  .results-card {
+    flex-direction: column;
+    width: 375px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  /* == OVERVIEW == */
+
+  .results-overview {
+    width: 100%;
+    padding: 24px 58px 40px 58px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .results-score {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 24px;
+  }
+
+  .results-evaluation {
+    margin-bottom: 8px;
+  }
+
+  /* == SUMMARY == */
+
+  .results-summary {
+    padding: 24px 30px 30px 30px;
+    width: 100%;
+  }
+
+  .summary-score {
+    width: 315px;
+    gap: 81px;
+  }
+
+  .continue-button {
+    width: 315px;
+  }
+
+}

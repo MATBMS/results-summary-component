@@ -79,8 +79,15 @@ body {
   color: #303B59;
 }
 
-/* == BACKGROUND COLORS */
+/* == BACKGROUND COLORS == */
 
 .blue-gradient {
   background: linear-gradient(to bottom, #7755FF 0%, #6943FF 0%, #2F2CE9 100%);
+}
+
+/* == ICON == */
+
+.icon {
+  width: 20px;
+  height: 20px;
 }
