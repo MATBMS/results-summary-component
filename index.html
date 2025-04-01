@@ -2,61 +2,97 @@
 <html lang="en">
 
   <head>
+    <!-- Meta Information -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./style.css">
 
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/card.css">
+    <link rel="stylesheet" href="./styles/overview.css">
+    <link rel="stylesheet" href="./styles/summary.css">
+
+    <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
+    <!-- Page Title -->
     <title>Results Summary Component</title>
   </head>
 
   <body>
-    <section class="results-card">
-      <div class="results-overview">
-        <h2 class="results-title">Your Result</h2>
-        <p class="results-score">76 <span>of 100</span></p>
-        <p class="results-evaluation">Great</p>
-        <p class="results-comment">
-          You scored higher than 65% of the people who have taken these tests.
-        </p>
-      </div>
-      <div class="results-summary">
-        <h2 class="summary-title">Summary</h2>
-        <div class="summary-scores">
-          <div class="summary-score">
-            <div class="summary-score-header">
-              <img src="./assets/images/icon-reaction.svg" alt="Reaction Icon">
-              <p class="summary-score-name">Reaction</p>
-            </div>
-            <p class="summary-score-value">80 <span>/ 100</span></p>
+    <main>
+      <!-- Results Card Section -->
+      <section class="results-card">
+
+        <!-- Results Overview Section -->
+        <div class="results-overview">
+          <h2 class="results-title heading-m txt-light-blue">Your Result</h2>
+          <div class="results-score">
+            <p class="heading-xl txt-white">76</p>
+            <p class="txt-body-bold txt-light-blue">of 100</p>
           </div>
-          <div class="summary-score">
-            <div class="summary-score-header">
-              <img src="./assets/images/icon-memory.svg" alt="Memory Icon">
-              <p class="summary-score-name">Memory</p>
-            </div>
-            <p class="summary-score-value">92 <span>/ 100</span></p>
-          </div>
-          <div class="summary-score">
-            <div class="summary-score-header">
-              <img src="./assets/images/icon-verbal.svg" alt="Verbal Icon">
-              <p class="summary-score-name">Verbal</p>
-            </div>
-            <p class="summary-score-value">61 <span>/ 100</span></p>
-          </div>
-          <div class="summary-score">
-            <div class="summary-score-header">
-              <img src="./assets/images/icon-visual.svg" alt="Visual Icon">
-              <p class="summary-score-name">Visual</p>
-            </div>
-            <p class="summary-score-value">72 <span>/ 100</span></p>
-          </div>
-          <button class="continue-button">Continue</button>
+          <p class="results-evaluation heading-l txt-white">Great</p>
+          <p class="results-comment txt-body txt-light-blue">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
         </div>
-      </div>
-    </section>
+        <!-- End of Results Overview Section -->
+
+        <!-- Results Summary Section -->
+        <div class="results-summary">
+          <h2 class="summary-title heading-m txt-dark-navy">Summary</h2>
+          <div class="summary-scores">
+
+            <!-- Reaction Score -->
+            <div class="summary-score summary-reaction">
+              <div class="summary-score-header">
+                <img src="./assets/images/icon-reaction.svg" alt="Reaction Icon">
+                <p class="summary-score-name txt-body txt-red">Reaction</p>
+              </div>
+              <p class="summary-score-value txt-body-bold txt-dark-navy">80 <span>/ 100</span></p>
+            </div>
+            <!-- End of Reaction Score -->
+
+            <!-- Memory Score -->
+            <div class="summary-score summary-memory">
+              <div class="summary-score-header">
+                <img src="./assets/images/icon-memory.svg" alt="Memory Icon">
+                <p class="summary-score-name txt-body txt-yellow">Memory</p>
+              </div>
+              <p class="summary-score-value txt-body-bold txt-dark-navy">92 <span>/ 100</span></p>
+            </div>
+            <!-- End of Memory Score -->
+
+            <!-- Verbal Score -->
+            <div class="summary-score summary-verbal">
+              <div class="summary-score-header">
+                <img src="./assets/images/icon-verbal.svg" alt="Verbal Icon">
+                <p class="summary-score-name txt-body txt-green">Verbal</p>
+              </div>
+              <p class="summary-score-value txt-body-bold txt-dark-navy">61 <span>/ 100</span></p>
+            </div>
+            <!-- End of Verbal Score -->
+
+            <!-- Visual Score -->
+            <div class="summary-score summary-visual">
+              <div class="summary-score-header">
+                <img src="./assets/images/icon-visual.svg" alt="Visual Icon">
+                <p class="summary-score-name txt-body txt-blue">Visual</p>
+              </div>
+              <p class="summary-score-value txt-body-bold txt-dark-navy">72 <span>/ 100</span></p>
+            </div>
+            <!-- End of Visual Score -->
+
+            <!-- Continue Button -->
+            <button class="continue-button txt-body-bold txt-white">Continue</button>
+          </div>
+        </div>
+        <!-- End of Results Summary Section -->
+
+      </section>
+      <!-- End of Results Card Section -->
+    </main>
   </body>
 
 </html>

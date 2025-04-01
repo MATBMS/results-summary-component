@@ -1,0 +1,86 @@
+/* == TYPOGRAPHY == */
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  src: url('../assets/fonts/HankenGrotesk.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.heading-xl {
+  font-size: 72px;
+  font-weight: bolder;
+  line-height: 72px;
+  letter-spacing: 0px;
+}
+
+.heading-l {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: auto;
+  letter-spacing: 0px;
+}
+
+.heading-m {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: auto;
+  letter-spacing: 0px;
+}
+
+.txt-body {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: auto;
+  letter-spacing: 0px;
+}
+
+.txt-body-bold {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: auto;
+  letter-spacing: 0px;
+}
+
+.results-title {
+  margin-bottom: 35px;
+  color: #CAC9FF;
+}
+
+/* == TEXT COLORS == */
+
+.txt-white {
+  color: #fff;
+}
+
+.txt-blue {
+  color: #1125D6;
+}
+
+.txt-light-blue {
+  color: #CAC9FF;
+}
+
+.txt-green {
+  color: #00BB8F;
+}
+
+.txt-red {
+  color: #FF5555;
+}
+
+.txt-yellow {
+  color: #FFB21E;
+}
+
+.txt-dark-navy {
+  color: #303B59;
+}
+
+/* == BACKGROUND COLORS */
+
+.blue-gradient {
+  background: linear-gradient(to bottom, #7755FF 0%, #6943FF 0%, #2F2CE9 100%);
+}
