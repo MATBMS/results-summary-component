@@ -1,0 +1,54 @@
+/* Variables */
+
+:root {
+  /* colors */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  /* navy */
+  --color-navy-950: #303b59;
+  --color-navy-200: #cac9ff;
+  --color-navy-50: #ecf2ff;
+  /* blue */
+  --color-blue-800: #1125d6;
+  --color-blue-50: #f3f4fd;
+  /* yellow */
+  --color-yellow-400: #ffb21e;
+  --color-yellow-50: #fffbf4;
+  /* red */
+  --color-red-400: #ff5555;
+  --color-red-50: #fff6f6;
+  /* green */
+  --color-red-500: #00bb8f;
+  --color-red-50: #f2fcf9;
+
+  /* linear gradiant */
+  --colors-gradient-1: linear-gradient(
+    180deg,
+    #4d21c9 0%,
+    rgba(37, 33, 201, 0) 100%
+  );
+  --colors-gradient-2: linear-gradient(180deg, #75f 0%, #2f2ce9 100%);
+
+  /* spacing */
+  --spacing-0: 0px;
+  --spacing-100: 8px;
+  --spacing-150: 12px;
+  --spacing-200: 16px;
+  --spacing-250: 20px;
+  --spacing-300: 24px;
+  --spacing-350: 28px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+  --spacing-550: 44px;
+  --spacing-600: 48px;
+  --spacing-700: 56px;
+  --spacing-800: 64px;
+  --spacing-900: 72px;
+  --spacing-1000: 80px;
+  --spacing-1100: 88px;
+  --spacing-1400: 112px;
+  --spacing-1600: 128px;
+  --spacing-1800: 144px;
+  --spacing-2100: 168px;
+  --spacing-3700: 296px;
+}
