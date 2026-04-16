@@ -3,13 +3,19 @@
 body {
   width: 100vw;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 /* Summary Card */
 
 .summary-card {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  max-width: 686px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-white);
 }
 
 /* Result Container */
@@ -17,7 +23,6 @@ body {
 .result-container {
   /* layout */
   display: flex;
-  padding: var(--spacing-0, 0);
   justify-content: center;
   align-items: center;
   padding: 32px 57.5px;
@@ -56,6 +61,12 @@ body {
   /* style */
   border-radius: 70px;
   background: var(--color-gradient-1);
+}
+
+.score-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .score-content span {
@@ -225,4 +236,91 @@ button {
   font-style: normal;
   font-weight: 700;
   line-height: 130%; /* 23.4px */
+}
+
+/* TABLET (768px and up) */
+@media (min-width: 48em) {
+  body {
+    align-items: center;
+    background-color: var(--color-blue-50);
+  }
+
+  .summary-card {
+    max-width: 686px;
+    flex-direction: row;
+    align-items: center;
+    max-height: 512px;
+    border-radius: 32px;
+  }
+
+  /* Result Container */
+
+  .result-container {
+    /* layout */
+    padding: 45px 69px;
+    /* style */
+    border-radius: 32px;
+    background: var(--color-gradient-2);
+  }
+
+  .result-content {
+    width: 200px;
+    gap: var(--spacing-400);
+  }
+
+  .result-title {
+    font-size: 24px;
+  }
+
+  /* Result Score */
+
+  .result-score {
+    /* layout */
+    width: 200px;
+    height: 200px;
+    /* style */
+    border-radius: 100px;
+    background: var(--color-gradient-1);
+  }
+
+  .score-content span {
+    font-size: 72px;
+  }
+
+  .score-content p {
+    font-size: 18px;
+  }
+
+  /* Result Feedback */
+
+  .result-feedback h3 {
+    font-size: 32px;
+  }
+
+  .result-feedback p {
+    font-size: 18px;
+  }
+
+  /* Summary */
+
+  .summary-container {
+    min-width: 348px;
+    padding: 45px 40px 45px 40px;
+  }
+
+  .summary-title {
+    font-size: 24px;
+  }
+
+  .summary-label-text {
+    font-size: 18px;
+  }
+
+  .summary-item-score p {
+    font-size: 18px;
+  }
+}
+
+/* DESKTOP (1440px and up) */
+@media (min-width: 90em) {
 }
