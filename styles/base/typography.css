@@ -1,7 +1,11 @@
 /* Typography */
 
 @font-face {
-  font-family: "HankenGrotesk";
+  font-family: "Hanken Grotesk";
   font-display: swap;
   src: url("../../fonts/HankenGrotesk.ttf");
+}
+
+* {
+  font-family: "Hanken Grotesk";
 }

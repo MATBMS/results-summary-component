@@ -1,0 +1,228 @@
+/* General */
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+/* Summary Card */
+
+.summary-card {
+  width: 100%;
+  height: 100%;
+}
+
+/* Result Container */
+
+.result-container {
+  /* layout */
+  display: flex;
+  padding: var(--spacing-0, 0);
+  justify-content: center;
+  align-items: center;
+  padding: 32px 57.5px;
+  /* style */
+  border-radius: 0 0 32px 32px;
+  background: var(--color-gradient-2);
+  box-shadow: 0 30px 60px 0 rgba(61, 108, 236, 0.15);
+}
+
+.result-content {
+  display: flex;
+  width: 260px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-300);
+  text-align: center;
+}
+
+.result-title {
+  color: var(--color-navy-200);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 23.4px */
+}
+
+/* Result Score */
+
+.result-score {
+  /* layout */
+  display: flex;
+  width: 140px;
+  height: 140px;
+  justify-content: center;
+  align-items: center;
+  /* style */
+  border-radius: 70px;
+  background: var(--color-gradient-1);
+}
+
+.score-content span {
+  color: var(--color-white);
+  font-size: 56px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 100%; /* 56px */
+  opacity: 1;
+}
+
+.score-content p {
+  /* layout */
+  display: flex;
+  width: 63px;
+  flex-direction: column;
+  align-items: center;
+  /* typography */
+  color: var(--color-navy-200);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 20.8px */
+  opacity: 0.5168;
+}
+
+/* Result Feedback */
+
+.result-feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-100);
+  align-self: stretch;
+}
+
+.result-feedback h3 {
+  color: var(--color-white);
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 31.2px */
+}
+
+.result-feedback p {
+  color: var(--color-navy-200);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 20.8px */
+}
+
+/* Summary */
+
+.summary-container {
+  display: flex;
+  min-width: 325px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: var(--spacing-300);
+  padding: 24px 30px 30px 30px;
+  text-align: center;
+}
+
+.summary-title {
+  color: var(--color-navy-950);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 23.4px */
+}
+
+.summary-scores {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-200);
+}
+
+.summary-item {
+  /* layout */
+  display: flex;
+  width: 100%;
+  padding: 17.5px;
+  justify-content: space-between;
+  align-items: center;
+  /* style */
+  border-radius: 12px;
+  background-color: var(--color-red-50);
+  color: var(--color-red-400);
+}
+
+.summary-item:nth-child(2) {
+  background-color: var(--color-yellow-50);
+  color: var(--color-yellow-400);
+}
+
+.summary-item:nth-child(3) {
+  background-color: var(--color-green-50);
+  color: var(--color-green-500);
+}
+
+.summary-item:nth-child(4) {
+  background-color: var(--color-blue-50);
+  color: var(--color-blue-800);
+}
+
+.summary-item-label {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-200);
+}
+
+.summary-label-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.summary-label-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 20.8px */
+}
+
+.summary-item-score {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-100);
+}
+
+.summary-item-score p {
+  color: var(--color-navy-950);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 20.8px */
+}
+
+.summary-item-score span {
+  opacity: 0.5;
+}
+
+/* button */
+
+button {
+  /* layout */
+  display: flex;
+  height: 56px;
+  padding: var(--spacing-0);
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-0);
+  align-self: stretch;
+  /* style */
+  border-radius: 128px;
+  background: var(--color-navy-950);
+  /* typography */
+  color: var(--color-white);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 23.4px */
+}

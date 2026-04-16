@@ -1,0 +1,15 @@
+.sr-only {
+  display: none;
+}
+
+/* MOBILE (375px and up) */
+@media (min-width: 23.4375em) {
+}
+
+/* TABLET (768px and up) */
+@media (min-width: 48em) {
+}
+
+/* DESKTOP (1440px and up) */
+@media (min-width: 90em) {
+}
