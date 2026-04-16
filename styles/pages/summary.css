@@ -243,10 +243,11 @@ button {
   body {
     align-items: center;
     background-color: var(--color-blue-50);
+    padding: 0px 41px;
   }
 
   .summary-card {
-    max-width: 686px;
+    max-width: 736px;
     flex-direction: row;
     align-items: center;
     max-height: 512px;
@@ -304,8 +305,10 @@ button {
   /* Summary */
 
   .summary-container {
-    min-width: 348px;
+    /* width: 100%; */
+    width: 348px;
     padding: 45px 40px 45px 40px;
+    gap: var(--spacing-400);
   }
 
   .summary-title {
@@ -323,4 +326,19 @@ button {
 
 /* DESKTOP (1440px and up) */
 @media (min-width: 90em) {
+  .result-container {
+    padding: 45px 54px;
+  }
+
+  .result-content {
+    width: 260px;
+  }
+
+  .result-container {
+    width: 368px;
+  }
+
+  .summary-container {
+    width: 368px;
+  }
 }
