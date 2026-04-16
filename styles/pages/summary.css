@@ -230,12 +230,17 @@ button {
   /* style */
   border-radius: 128px;
   background: var(--color-navy-950);
+  border: none;
   /* typography */
   color: var(--color-white);
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 130%; /* 23.4px */
+}
+
+button:hover {
+  background: var(--color-gradient-2);
 }
 
 /* TABLET (768px and up) */
