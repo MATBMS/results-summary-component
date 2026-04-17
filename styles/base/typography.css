@@ -9,3 +9,81 @@
 * {
   font-family: "Hanken Grotesk";
 }
+
+/* Heading */
+
+h2 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 23.4px */
+}
+
+h3 {
+  color: var(--color-white);
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 31.2px */
+}
+
+/* Text */
+
+p {
+  color: var(--color-navy-200);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 20.8px */
+}
+
+/* Effect */
+
+.text-red {
+  color: var(--color-red-400);
+}
+
+.text-yellow {
+  color: var(--color-yellow-400);
+}
+
+.text-green {
+  color: var(--color-green-500);
+}
+
+.text-blue {
+  color: var(--color-blue-800);
+}
+
+.text-navy {
+  color: var(--color-navy-950);
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-half-opacity {
+  opacity: 0.5;
+}
+
+/* TABLET (768px and up) */
+@media (min-width: 48em) {
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+/* DESKTOP (1440px and up) */
+@media (min-width: 90em) {
+}
