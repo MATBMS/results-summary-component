@@ -31,16 +31,15 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### Extras
 
-As a User,<br>
-I need to be able to [...],<br>
-So that I can [...].
+No extra feature.
 
 ### What I learned
+
+Nothing new has been learned.
 
 ### AI Collaboration
 
