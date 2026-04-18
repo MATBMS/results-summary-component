@@ -1,7 +1,6 @@
 /* General */
 
 body {
-  width: 100vw;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -28,7 +27,7 @@ body {
   /* style */
   border-radius: 0 0 32px 32px;
   background: var(--color-gradient-2);
-  box-shadow: 0 30px 60px 0 rgba(61, 108, 236, 0.15);
+  box-shadow: var(--box-shadow);
 }
 
 .result-content {
@@ -257,15 +256,12 @@ button:hover {
 /* DESKTOP (1440px and up) */
 @media (min-width: 90em) {
   .result-container {
+    width: 368px;
     padding: 45px 54px;
   }
 
   .result-content {
     width: 260px;
-  }
-
-  .result-container {
-    width: 368px;
   }
 
   .summary-item {

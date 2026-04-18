@@ -7,7 +7,7 @@
 }
 
 * {
-  font-family: "Hanken Grotesk";
+  font-family: "Hanken Grotesk", sans-serif;
 }
 
 /* Heading */
@@ -82,8 +82,4 @@ p {
   p {
     font-size: 18px;
   }
-}
-
-/* DESKTOP (1440px and up) */
-@media (min-width: 90em) {
 }
